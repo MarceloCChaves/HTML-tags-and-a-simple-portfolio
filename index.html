@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Revisão</title>
+        <meta charset="uft-8">
+        <meta name="author" content="Marcelo">
+        <meta name="descrição" content="descriçao">
+        <meta name="keywords" content="HTML">
+        <link rel="stylesheet" href="./CSS/normalize.css">
+        <link rel="stylesheet" href="./CSS/styles.css">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <script src="https://use.fontawesome.com/8ba2abdff6.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="main-header">
+            <a href="./Imagens/fulls/MinhaFoto.jpg" class="main-header-link imagem-link">
+                <img  src="./Imagens/fulls/MinhaFoto.jpg" alt="eu ae">
+            </a>
+            <h1 class="main-header-title">Coisas que eu aprendi, feito por <strong>Marcelo Chaves</strong><br>Programador inciante de frontend</h1>
+        </header>
+        <main class="main-content"> 
+            <section class="main-content-section"></section>
+                <h2>Porque decidi estudar frontend?</h2>
+                <p>Sempre achei a parte de frontend muito interessante,
+                 meu objetivo na programação, sempre foi trabalhar com sites,
+                  e estou me especializando no assunto, progredindo um pouco a cada dia
+                 <br>
+                 Referência: <a class="referencia" href="https://www.udemy.com/course/curso-web-design-fundamentos-aprenda-html-css-e-javascript/">Este curso</a>
+                </p>
+                <a href="#" title="Veja Mais" class="button-default">Veja Mais</a>
+            </section>
+            <hr>
+            <section class="main-content-section">
+                <h3>Trabalhos recentes</h3>
+                <div class="row">
+                    <div class="col-half">
+                        <article class="recent-works-card">
+                            <a class="imagem-link" href="./Imagens/fulls/calculadora.jpg"><img src="./Imagens/fulls/calculadora.jpg" title="calculadora"></a>
+                            <h3 class="recent-works-card-title">Calculadora</h3>
+                            <p>Calculadora feita por mim e meu amigo Pedro Fonseca, para uma apresentação</p>
+                        </article>
+                        <article class="recent-works-card">
+                            <a class="imagem-link" href="./Imagens/fulls/lista.jpg"><img src="./Imagens/fulls/lista.jpg" title="lista"></a>
+                            <h3 class="recent-works-card-title">Lista de Afazeres</h3>
+                            <p>Uma simples lista de afazeres para marcar e desmarcar as tarefas feitas</p>
+                        </article>
+                        <article class="recent-works-card">
+                            <a class="imagem-link" href="./Imagens/fulls/loja.jpg"><img src="./Imagens/fulls/loja.jpg" title="Loja"></a>
+                            <h3 class="recent-works-card-title">Loja de Roupas e acessórios</h3>
+                            <p>Loja de roupas e acessórios, bem completinha até</p>
+                        </article>
+                    </div>
+                    <div class="col-half">
+                        <article class="recent-works-card">
+                            <a class="imagem-link" href="./Imagens/fulls/myfriends.jpg"><img src="./Imagens/fulls/myfriends.jpg" title="myfriends"></a>
+                            <h3 class="recent-works-card-title">Site com meus amigos</h3>
+                            <p>Uma página em html feita para apresentar alguns dos meus amigos de escola</p>
+                        </article>
+                        <article class="recent-works-card">
+                            <a class="imagem-link" href="./Imagens/fulls/ppt.jpg"><img src="./Imagens/fulls/ppt.jpg" title="Pedra papel e tesoura"></a>
+                            <h3 class="recent-works-card-title">Pedra papel e tesoura</h3>
+                            <p>Um jogo de pedra papel e tesoura, também para uma apresentação</p>
+                        </article>
+                        <article class="recent-works-card">
+                            <a class="imagem-link" href="./Imagens/fulls/table.jpg"><img src="./Imagens/fulls/table.jpg" title="tabela"></a>
+                            <h3 class="recent-works-card-title">Tabela de pokemons lendários</h3>
+                            <p>Feita apenas para passar o tempo, pokemons até a região de alola</p>
+                        </article>
+                    </div>
+                </div>
+                        <a href="https://github.com/MarceloCChaves" title="portfolio" class="button-default">Veja o portifólio completo</a>
+            </section>
+
+            <section class="main-content-section">
+                <h3>Contato</h3>
+                <p>Me envie uma mensagem, e deixo os meus contatos</p>
+
+                <div class="row">
+                    <div class="col-2-3">
+                        <form action="#" method="POST">
+                            <div class="row">
+                                <div class="col-half">
+                                    <label for="nome">Nome</label>
+                                    <input type="text" name="nome" id="nome">
+                                </div>
+                                <div class="col-half">
+                                    <label for="email">Email</label>
+                                    <input type="email" name="email" id="email">
+                                </div>
+                            </div>
+                                <label for="mensagem">Mensagem  <textarea name="mensagem" id="mensagem"></textarea></label>
+                                <input type="submit" value="Enviar" class="button-default">
+                        </form>
+                    </div>
+                    <div class="col-1-3">
+                        <address>
+                            <h3>Contato</h3>
+                            <p>
+                                <span>Endereço</span>
+                                Travessa Benjamin Constant, 877
+                            </p>
+                            <p>
+                                <span>Telefone</span>
+                                +55 (91)99272-7732
+                            </p>
+                            <p>
+                                <span>Email</span>
+                                Marcelochaves20000@gmail.com
+                            </p>
+                        </address>
+                    </div>
+
+                </section>
+                <section class="main-content-section">
+                    <h3>Elements</h3>
+                        <h4>Text</h4>
+                        <p>This is <b>bold</b> and this is <strong>Strong.</strong>
+                        This is <i>italic</i> and this is <em>emphasized.</em> 
+                        This is <sup>suppercript text</sup> and this is
+                        <sub>subscript text.</sub> This is <u>underlined</u>
+                        and this is code: <code>for(;;){...}</code>. Finaly this is a <a href="https://gartic.com.br/">Link</a>.
+                        </p>
+                    <h3>The h's</h3>
+                        <h1>Heading level 1</h1>
+                        <h2>Heading level 2</h2>
+                        <h3>Heading level 3</h3>
+                        <h4>Heading level 4</h4>
+                        <h5>Heading level 5</h5>
+                        <h6>Heading level 6</h6>
+
+                    <h3>Citação</h3>
+                        <p>Frase de getulio vargas
+                            <blockquote cite="https://pt.wikipedia.org/wiki/Carta-testamento_de_Get%C3%BAlio_Vargas#:~:text=C%C3%B3pia%20da%20Carta%2Dtestamento%20de,d%C3%A3o%20o%20direito%20de%20defesa.">
+                            Eu vos dei a minha vida. Agora ofereço a minha morte. Nada receio. Serenamente dou o primeiro passo no caminho da eternidade e saio da vida para entrar na história.
+                            </blockquote>
+                        </p>
+                    <h4>Preformatado</h4>
+                    <pre>
+                        <code>
+        &lt; script &gt;
+            alert('oi');
+        &lt; script &gt;
+                        </code>
+                    </pre>
+                    <h3>Listas</h3>
+                    <div class="row">
+                        <div class="col-half">
+                            <h4>Não ordenada</h4>
+                        <ul>
+                        <li>Fruta</li>
+                        <li>Macarrão</li>
+                        <li>Feijão</li>
+                        </ul>
+                        <h4>Ordenada</h4>
+                        <ol>
+                        <li>1. Fruta</li>
+                        <li>2. Macarrão</li>
+                        <li>3. Feijão</li>
+                        </ol>
+                        </div>
+                        <div class="row">
+                            <h4>Alternada</h4>
+                            <ul class="ul-alternate">
+                                <li>Fruta</li>
+                                <li>Macarrão</li>
+                                <li>Feijão</li>
+                                </ul>
+                                <h3>Icones</h3>
+                                <ul class="ul-icons">
+                               <li>
+                                    <i style="color: #3b5998;"class="fa fa-facebook-official" aria-hidden="true"></i>
+                               </li>
+                               <li>
+                                    <i class="fa fa-github" aria-hidden="true"></i>
+                               </li>
+                               <li>
+                                    <i style="color: #E1306C;" class="fa fa-instagram" aria-hidden="true"></i>
+                               </li>
+                           </ul>
+                        </div>
+                    </div>
+                   <h3>Actions</h3>
+                   <div class="row">
+                        <div class="col-half">
+                            <p>
+                                <a href="#"  class="button-default">Default</a>
+                            </p>
+                            <p>
+                                <a href="#"  class="button-default-stroke">Default</a>
+                            </p>
+                        </div>
+                    <div class="col-half">
+                            <p>
+                                <a href="#"  class="button-default-small">Default</a>
+                            </p>
+                            <p>
+                                <a href="#"  class="button-default-small-stroke">Default</a>
+                            </p>
+                            <p>
+                                <a href="#"  class="button-default-full">Default</a>
+                            </p>
+                            <p>
+                                <a href="#"  class="button-default-stroke-full">Default</a>
+                            </p>
+                        </div>
+                </div>
+                    <h3>Tabelas</h3>
+                    <table class="table">
+                        <thead class="table-head">
+                            <tr>
+                                <th>Name</th>
+                                <th>Profissão</th>
+                                <th>Idade</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-body">
+                            <tr>
+                                <td>Marcelo</td>
+                                <td>Estudante de Ciência da Computação</td>
+                                <td>19</td>
+                            </tr>
+                        </tbody>
+                        <tbody class="table-body">
+                            <tr>
+                                <td>Danilo</td>
+                                <td>Estudante de Medicina</td>
+                                <td>18</td>
+                            </tr>
+                        </tbody>
+                        <tbody class="table-body">
+                            <tr>
+                                <td>Elho</td>
+                                <td>Estudante de Administração</td>
+                                <td>19</td>
+                            </tr>
+                        </tbody>
+                        <tbody class="table-body">
+                            <tr>
+                                <td>Job</td>
+                                <td>Estudante de Medicina</td>
+                                <td>19</td>
+                            </tr>
+                        </tbody>
+                        <tbody class="table-body">
+                            <tr>
+                                <td>Bira</td>
+                                <td>Estudante de Direito</td>
+                                <td>18</td>
+                            </tr>
+                        </tbody>
+                        <tbody class="table-body">
+                            <tr>
+                                <td>Carlos</td>
+                                <td>Estudante de Engenharia</td>
+                                <td>18</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h3>Buttons</h3>
+                   <p>
+                       <button  class="button-default">Default</button>
+                    </p>
+                   <p>
+                       <button  class="button-default-stroke">Default</button>
+                    </p>
+
+                    <p>
+                        <button   class="button-default-small">Default</button>
+                     </p>
+                    <p>
+                        <button  class="button-default-small-stroke">Default</button>
+                     </p>
+                     <p>
+                        <button  class="button-default-full">Default</button>
+                     </p>
+                    <p>
+                        <button   class="button-default-stroke-full">Default</button>
+                     </p>
+
+                    <h3>Form</h3>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" placeholder="Name">
+
+                    <label for="email">Email</label>
+                    <input type="text" name="email" placeholder="Email">
+                    <select>
+                        <option value="0">Escolha uma fruta</option>
+                        <option value="1">Banana</option>
+                        <option value="2">Maçã</option>
+                        <option value="3">Melancia</option>
+                        <option value="4">Mamão</option>
+                    </select>
+                    <br>
+                    <label><br><input name="linguagem" value="Javascript" type="radio">Javascript</label>
+                    <label><br><input name="linguagem" value="C" type="radio">C</label>
+                    <label><br><input name="linguagem" value="Ruby" type="radio">Python</label>
+                    <br>
+                    <label><input type="checkbox" name="sim">Enviar Cópia</label>
+                    <label><input type="checkbox" name="não">Sou um humano</label>
+                    <br>
+                    <textarea maxlength="500" rows="10" cols="30" placeholder="Escreva seu texto aqui"></textarea>
+                    <br>
+                    <input type="submit" class="button-default" value="Enviar">
+                    <input type="reset" class="button-default" value="Limpar">
+                </section>
+        </main>
+        <footer class="main-footer">
+            <ul class="ul-icons">
+                <li>
+                     <a href="https://www.facebook.com/marcelo.chaves.775"><i id="icon" class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                     <a href="https://github.com/MarceloCChaves"><i id="icon" class="fa fa-github" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                     <a href="https://www.instagram.com/marcelocchaves_/"><i id="icon" class="fa fa-instagram" aria-hidden="true"></i></a>
+                </li>
+                <p class="copyright">Copyright &copy;</p>
+            </ul>
+        </footer>
+    </body>
+</html>
